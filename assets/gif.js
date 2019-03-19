@@ -21,7 +21,7 @@ $("form button").on("click", function(){
 
 $(document).on("click", "#giphyButtons button", function(){
     var giphy = $(this).text();
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + giphy + "&api_key=7Lp5wuX8WsHM1xycYzPJVm1HwCAeGsvp&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + giphy + "&api_key=7Lp5wuX8WsHM1xycYzPJVm1HwCAeGsvp&limit=10";
 
     $.ajax({
         url:queryURL,
